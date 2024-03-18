@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "clickbrain-lander"
+resolve_s3 = true
+s3_prefix = "clickbrain-lander"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "DeploymentName=\"clickbrain\""
+image_repositories = []
